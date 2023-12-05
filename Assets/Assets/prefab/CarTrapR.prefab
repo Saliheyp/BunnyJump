@@ -1,0 +1,75 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &4665640044748294915
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 8364908314212216519}
+  - component: {fileID: 84291588171794011}
+  - component: {fileID: -3959662430426421665}
+  m_Layer: 0
+  m_Name: CarTrapR
+  m_TagString: Untagged
+  m_Icon: {fileID: 5132851093641282708, guid: 0000000000000000d000000000000000, type: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &8364908314212216519
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4665640044748294915}
+  serializedVersion: 2
+  m_LocalRotation: {x: -0, y: -0, z: -0, w: 1}
+  m_LocalPosition: {x: 22.198208, y: -6.2823143, z: -2.030813}
+  m_LocalScale: {x: 5, y: 5, z: 5}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &84291588171794011
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4665640044748294915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 432bc45bf500d1047b975dab24efae52, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carPrefabs:
+  - {fileID: 3460672183681071373, guid: 8f855ab92d6fdf0449b325fe8ed5d58f, type: 3}
+  - {fileID: 3460672183681071373, guid: 8f855ab92d6fdf0449b325fe8ed5d58f, type: 3}
+  - {fileID: 3460672183681071373, guid: 8f855ab92d6fdf0449b325fe8ed5d58f, type: 3}
+  - {fileID: 3460672183681071373, guid: 8f855ab92d6fdf0449b325fe8ed5d58f, type: 3}
+  - {fileID: 3460672183681071373, guid: 8f855ab92d6fdf0449b325fe8ed5d58f, type: 3}
+  - {fileID: 3264097470546224377, guid: 7fe82440a095daa45a6f82f014f87b44, type: 3}
+  - {fileID: 3264097470546224377, guid: 7fe82440a095daa45a6f82f014f87b44, type: 3}
+  - {fileID: 3264097470546224377, guid: 7fe82440a095daa45a6f82f014f87b44, type: 3}
+  - {fileID: 1407143095295363276, guid: 028b69ad01947594880872853e80d3d6, type: 3}
+  - {fileID: 1407143095295363276, guid: 028b69ad01947594880872853e80d3d6, type: 3}
+  spawnPoint: {fileID: 0}
+  spawnFrequency: 4
+--- !u!114 &-3959662430426421665
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 4665640044748294915}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a732bd18a4eca5042b3d41b0748be6bf, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  carrotSpawner: {fileID: 0}
+  carrotCoin: {fileID: 7124974707130875879, guid: 5bc3c8eeaa88ce849bd3826d58f897c9, type: 3}
+  spawnPoint: {fileID: 0}
